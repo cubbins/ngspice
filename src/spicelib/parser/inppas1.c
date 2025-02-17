@@ -13,6 +13,18 @@ Author: 1985 Thomas L. Quarles
 
 void INPpas1(CKTcircuit *ckt, card * deck, INPtables * tab)
 {
+
+	/* 
+	//cubbins
+	FILE* fptr3;
+	fptr3 = fopen("cubbinsTrace.txt", "a");
+	fprintf(fptr3, "%s\n", "void INPpas1(CKTcircuit *ckt, card * deck, INPtables * tab)");
+	fclose(fptr3);
+	*/
+
+
+
+	
     card *current;
     char *temp, *thisline;
 
